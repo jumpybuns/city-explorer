@@ -1,6 +1,6 @@
 const client = require('../lib/client');
 // import our seed data:
-const geos = require('./geos.js');
+const geos = require('./geos.json');
 const usersData = require('./users.js');
 const { getEmoji } = require('../lib/emoji.js');
 

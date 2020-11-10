@@ -19,9 +19,9 @@ async function run() {
                 );           
                 CREATE TABLE geos (
                     id SERIAL PRIMARY KEY NOT NULL,
-                    formatted_query VARCHAR(256),
-                    latitude VARCHAR(256),
-                    longitude VARCHAR(512) NOT NULL,
+                    display_name VARCHAR(256),
+                    lat VARCHAR(256),
+                    lon VARCHAR(512) NOT NULL,
                     owner_id INTEGER NOT NULL REFERENCES users(id)
             );
         `);
