@@ -1,5 +1,14 @@
 # Create Alchemy SQL BE
 
+YELP CLIENT ID = Client ID
+7jGDa3cADq1FgXtlnohkYg
+
+
+
+
+
+
+
 ## Getting started
 1. Change all the files in the `data` directory to match the data model of your app.
 1. Run `heroku create`
